@@ -1,0 +1,1246 @@
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Thu Dec 21 23:08:00 UTC 2023
+# Process ID (PID): 2145666
+# User: azafeer
+# OS: Ubuntu
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.calculateTabWidth(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.calculateTabRects(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneLayout.calculateLayoutInfo(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.layoutContainer(Unknown Source)
+	at ui.utils.lnf.HSyntheticaJideTabbedPaneUI$HSyntheticaTabbedPanelScrollLayout.layoutContainer(SourceFile:1104)
+	at java.desktop/java.awt.Container.layout(Unknown Source)
+	at java.desktop/java.awt.Container.doLayout(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validate(Unknown Source)
+	at java.desktop/javax.swing.JViewport.validateView(Unknown Source)
+	at java.desktop/javax.swing.JViewport.scrollRectToVisible(Unknown Source)
+	at java.desktop/javax.swing.JComponent.scrollRectToVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$ScrollableTabPanel.scrollRectToVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$ScrollableTabPanel.scrollIndexToVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.ensureActiveTabIsVisible(Unknown Source)
+	at com.jidesoft.swing.JideTabbedPane.scrollSelectedTabToVisible(Unknown Source)
+	at ui.views.S.aA.S(SourceFile:356)
+	at ui.views.S.aA.update(SourceFile:646)
+	at ui.views.S.u.gSn(SourceFile:2530)
+	at ui.bo.updateMenu(SourceFile:2020)
+	at ui.bo.fB(SourceFile:1967)
+	at ui.bo.cR(SourceFile:1936)
+	at ui.views.V.E.documentComponentDeactivated(SourceFile:2359)
+	at com.jidesoft.document.DocumentComponent.a(Unknown Source)
+	at com.jidesoft.document.DocumentPane.b(Unknown Source)
+	at com.jidesoft.document.DocumentPane.setActiveDocument(Unknown Source)
+	at com.jidesoft.document.DocumentPane.setActiveDocument(Unknown Source)
+	at com.jidesoft.document.DocumentPane.stateChanged(Unknown Source)
+	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(Unknown Source)
+	at com.jidesoft.swing.JideTabbedPane$IgnoreableSingleSelectionModel.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.removeTabAt(Unknown Source)
+	at com.jidesoft.swing.JideTabbedPane.removeTabAt(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.remove(Unknown Source)
+	at java.desktop/java.awt.Container.addImpl(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.insertTab(Unknown Source)
+	at com.jidesoft.swing.JideTabbedPane.insertTab(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.addTab(Unknown Source)
+	at com.jidesoft.document.TdiGroup.addDocument(Unknown Source)
+	at com.jidesoft.document.DocumentPane.a(Unknown Source)
+	at com.jidesoft.document.DocumentPane.openDocument(Unknown Source)
+	at com.jidesoft.document.DocumentPane.openDocument(Unknown Source)
+	at ui.views.h.fwf(SourceFile:349)
+	at ui.views.cP.fwf(SourceFile:393)
+	at ui.views.R.fwO(SourceFile:784)
+	at ui.views.R.q(SourceFile:705)
+	at ui.views.S.u.am(SourceFile:1104)
+	at ui.views.S.u.s(SourceFile:1038)
+	at ui.views.S.l.A(SourceFile:320)
+	at ui.views.S.Q.J(SourceFile:324)
+	at ui.views.S.Q.a(SourceFile:255)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.cU(SourceFile:336)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.bB.showDialog(SourceFile:978)
+	at ui.b.c.bI.actionPerformed(SourceFile:1120)
+	at ui.b.c.bB.cSz(SourceFile:1079)
+	at ui.b.G.aj.a(SourceFile:647)
+	at ui.b.G.aj.abE(SourceFile:586)
+	at ui.b.G.aj.actionPerformed(SourceFile:471)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.p.b.a.fireActionPerformed(SourceFile:299)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.g.a(SourceFile:332)
+	at ui.b.c.g.a(SourceFile:206)
+	at ui.b.c.g.hl(SourceFile:342)
+	at ui.b.G.aj.dRD(SourceFile:710)
+	at ui.b.G.aj.cRg(SourceFile:690)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.calculateTabWidth(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.calculateTabRects(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneLayout.calculateLayoutInfo(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.layoutContainer(Unknown Source)
+	at ui.utils.lnf.HSyntheticaJideTabbedPaneUI$HSyntheticaTabbedPanelScrollLayout.layoutContainer(SourceFile:1104)
+	at java.desktop/java.awt.Container.layout(Unknown Source)
+	at java.desktop/java.awt.Container.doLayout(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validate(Unknown Source)
+	at java.desktop/javax.swing.RepaintManager$3.run(Unknown Source)
+	at java.desktop/javax.swing.RepaintManager$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/javax.swing.RepaintManager.validateInvalidComponents(Unknown Source)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.bB.showDialog(SourceFile:978)
+	at ui.b.c.bI.actionPerformed(SourceFile:1120)
+	at ui.b.c.bB.cSz(SourceFile:1079)
+	at ui.b.G.aj.a(SourceFile:647)
+	at ui.b.G.aj.abE(SourceFile:586)
+	at ui.b.G.aj.actionPerformed(SourceFile:471)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.p.b.a.fireActionPerformed(SourceFile:299)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.g.a(SourceFile:332)
+	at ui.b.c.g.a(SourceFile:206)
+	at ui.b.c.g.hl(SourceFile:342)
+	at ui.b.G.aj.dRD(SourceFile:710)
+	at ui.b.G.aj.cRg(SourceFile:690)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.calculateTabWidth(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.calculateTabRects(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneLayout.calculateLayoutInfo(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.layoutContainer(Unknown Source)
+	at ui.utils.lnf.HSyntheticaJideTabbedPaneUI$HSyntheticaTabbedPanelScrollLayout.layoutContainer(SourceFile:1104)
+	at java.desktop/java.awt.Container.layout(Unknown Source)
+	at java.desktop/java.awt.Container.doLayout(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validateTree(Unknown Source)
+	at java.desktop/java.awt.Container.validate(Unknown Source)
+	at java.desktop/javax.swing.JViewport.validateView(Unknown Source)
+	at java.desktop/javax.swing.JViewport.scrollRectToVisible(Unknown Source)
+	at java.desktop/javax.swing.JComponent.scrollRectToVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$ScrollableTabPanel.scrollRectToVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$ScrollableTabPanel.scrollIndexToVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.ensureActiveTabIsVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$ComponentHandler.componentResized(Unknown Source)
+	at java.desktop/java.awt.Component.processComponentEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.bB.showDialog(SourceFile:978)
+	at ui.b.c.bI.actionPerformed(SourceFile:1120)
+	at ui.b.c.bB.cSz(SourceFile:1079)
+	at ui.b.G.aj.a(SourceFile:647)
+	at ui.b.G.aj.abE(SourceFile:586)
+	at ui.b.G.aj.actionPerformed(SourceFile:471)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.p.b.a.fireActionPerformed(SourceFile:299)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.g.a(SourceFile:332)
+	at ui.b.c.g.a(SourceFile:206)
+	at ui.b.c.g.hl(SourceFile:342)
+	at ui.b.G.aj.dRD(SourceFile:710)
+	at ui.b.G.aj.cRg(SourceFile:690)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.calculateTabWidth(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.calculateTabRects(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneLayout.calculateLayoutInfo(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.ensureCurrentLayout(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.ensureActiveTabIsVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabSelectionHandler$1.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.bB.showDialog(SourceFile:978)
+	at ui.b.c.bI.actionPerformed(SourceFile:1120)
+	at ui.b.c.bB.cSz(SourceFile:1079)
+	at ui.b.G.aj.a(SourceFile:647)
+	at ui.b.G.aj.abE(SourceFile:586)
+	at ui.b.G.aj.actionPerformed(SourceFile:471)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.p.b.a.fireActionPerformed(SourceFile:299)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.g.a(SourceFile:332)
+	at ui.b.c.g.a(SourceFile:206)
+	at ui.b.c.g.hl(SourceFile:342)
+	at ui.b.G.aj.dRD(SourceFile:710)
+	at ui.b.G.aj.cRg(SourceFile:690)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.calculateTabWidth(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.calculateTabRects(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneLayout.calculateLayoutInfo(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.ensureCurrentLayout(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$ScrollableTabSupport.stateChanged(Unknown Source)
+	at java.desktop/javax.swing.JViewport.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.JViewport.setViewSize(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$ComponentHandler.componentResized(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.componentResized(Unknown Source)
+	at java.desktop/java.awt.Component.processComponentEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.bB.showDialog(SourceFile:978)
+	at ui.b.c.bI.actionPerformed(SourceFile:1120)
+	at ui.b.c.bB.cSz(SourceFile:1079)
+	at ui.b.G.aj.a(SourceFile:647)
+	at ui.b.G.aj.abE(SourceFile:586)
+	at ui.b.G.aj.actionPerformed(SourceFile:471)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.p.b.a.fireActionPerformed(SourceFile:299)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.g.a(SourceFile:332)
+	at ui.b.c.g.a(SourceFile:206)
+	at ui.b.c.g.hl(SourceFile:342)
+	at ui.b.G.aj.dRD(SourceFile:710)
+	at ui.b.G.aj.cRg(SourceFile:690)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.calculateTabWidth(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.calculateTabRects(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneLayout.calculateLayoutInfo(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.ensureCurrentLayout(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.ensureActiveTabIsVisible(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabSelectionHandler$1.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.bB.showDialog(SourceFile:978)
+	at ui.b.c.bI.actionPerformed(SourceFile:1120)
+	at ui.b.c.bB.cSz(SourceFile:1079)
+	at ui.b.G.aj.a(SourceFile:647)
+	at ui.b.G.aj.abE(SourceFile:586)
+	at ui.b.G.aj.actionPerformed(SourceFile:471)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.p.b.a.fireActionPerformed(SourceFile:299)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.g.a(SourceFile:332)
+	at ui.b.c.g.a(SourceFile:206)
+	at ui.b.c.g.hl(SourceFile:342)
+	at ui.b.G.aj.dRD(SourceFile:710)
+	at ui.b.G.aj.cRg(SourceFile:690)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.calculateTabWidth(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneScrollLayout.calculateTabRects(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$TabbedPaneLayout.calculateLayoutInfo(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI.ensureCurrentLayout(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideTabbedPaneUI$ScrollableTabSupport.stateChanged(Unknown Source)
+	at java.desktop/javax.swing.JViewport.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.JViewport$ViewListener.componentResized(Unknown Source)
+	at java.desktop/java.awt.Component.processComponentEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.bB.showDialog(SourceFile:978)
+	at ui.b.c.bI.actionPerformed(SourceFile:1120)
+	at ui.b.c.bB.cSz(SourceFile:1079)
+	at ui.b.G.aj.a(SourceFile:647)
+	at ui.b.G.aj.abE(SourceFile:586)
+	at ui.b.G.aj.actionPerformed(SourceFile:471)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.p.b.a.fireActionPerformed(SourceFile:299)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:919)
+	at ui.b.c.g.a(SourceFile:332)
+	at ui.b.c.g.a(SourceFile:206)
+	at ui.b.c.g.hl(SourceFile:342)
+	at ui.b.G.aj.dRD(SourceFile:710)
+	at ui.b.G.aj.cRg(SourceFile:690)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:00 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:01 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:04 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:07 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:10 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:13 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:16 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:19 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:22 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:25 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:28 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:31 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:34 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:37 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:40 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:43 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:46 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:49 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:52 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:55 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:08:58 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:01 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:04 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:07 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:10 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:13 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:16 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:19 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:22 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:25 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:28 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:31 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:34 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:37 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:40 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:43 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:46 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:49 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:52 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:55 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:09:58 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:01 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:04 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:07 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:10 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:13 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:16 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:19 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:22 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:25 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:28 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:31 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:34 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:37 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:40 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:43 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:46 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:49 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:52 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:55 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:10:58 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:01 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:04 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:07 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:10 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:13 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:16 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:19 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:22 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:25 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:28 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:31 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:34 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:37 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:40 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:43 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:46 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:49 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:52 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:55 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:11:58 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:01 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:04 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:07 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:10 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:13 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:16 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:16 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:17 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:17 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:17 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:17 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:17 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:17 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:17 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:18 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:18 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:18 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:18 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:19 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:19 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:22 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+
+Thu Dec 21 23:12:25 UTC 2023
+java.lang.ArrayIndexOutOfBoundsException
+

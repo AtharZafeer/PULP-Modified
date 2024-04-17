@@ -1,0 +1,2388 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 3995600
+License: Customer
+
+Current time: 	Mon Dec 18 20:50:17 UTC 2023
+Time zone: 	Coordinated Universal Time (Etc/UTC)
+
+OS: Ubuntu
+OS Version: 5.15.0-88-generic
+OS Architecture: amd64
+Available processors (cores): 48
+
+Display: :4
+Screen size: 1920x1200
+Screen resolution (DPI): 114
+Available screens: 1
+Available disk space: 793 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=14
+
+Java version: 	9.0.4 64-bit
+Java home: 	/cad/xilinx/Vivado/2019.2/tps/lnx64/jre9.0.4
+Java executable location: 	/cad/xilinx/Vivado/2019.2/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	azafeer
+User home directory: /home/azafeer
+User working directory: /home/azafeer/Desktop/test/pulp-master/fpga/pulp
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /cad/xilinx/Vivado
+HDI_APPROOT: /cad/xilinx/Vivado/2019.2
+RDI_DATADIR: /cad/xilinx/Vivado/2019.2/data
+RDI_BINDIR: /cad/xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: /home/azafeer/.Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: /home/azafeer/.Xilinx/Vivado/2019.2/
+Vivado layouts directory: /home/azafeer/.Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	/cad/xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado.log
+Vivado journal file location: 	/home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3995600-compute
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /cad/xilinx/Vivado/2019.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@compute.eees.dei.unibo.it
+XILINX_DSP: /cad/xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: /cad/xilinx/Vivado/2019.2
+XILINX_SDK: /cad/xilinx/Vitis/2019.2
+XILINX_SDX: /cad/xilinx/SDx/2019.2
+XILINX_VITIS: /cad/xilinx/Vitis/2019.2
+XILINX_VIVADO: /cad/xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: /cad/xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,063 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,052 MB. GUI used memory: 50 MB. Current time: 12/18/23, 8:50:20 PM UTC
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // y (x, cr)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+dismissFileChooser();
+// 'i' command handler elapsed time: 7 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 52 MB. Current time: 12/18/23, 8:51:00 PM UTC
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // af (cr, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "/home/azafeer/Desktop/test/FIFO/FIFO.xpr"); // ai (cr, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+// [GUI Memory]: 55 MB (+55481kb) [00:00:55]
+// [Engine Memory]: 1,094 MB (+995412kb) [00:00:55]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: /home/azafeer/Desktop/test/FIFO/FIFO.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/azafeer/Desktop/test/FIFO/FIFO.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/azafeer/Desktop/test/FIFO/FIFO.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 91 MB (+34037kb) [00:01:02]
+// [Engine Memory]: 1,236 MB (+91494kb) [00:01:02]
+// [GUI Memory]: 111 MB (+16739kb) [00:01:02]
+// [Engine Memory]: 1,303 MB (+5678kb) [00:01:04]
+// WARNING: HEventQueue.dispatchEvent() is taking  3549 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/xilinx/Vivado/2019.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:09 . Memory (MB): peak = 6848.457 ; gain = 200.102 ; free physical = 6149 ; free virtual = 85002 
+// Project name: FIFO; location: /home/azafeer/Desktop/test/FIFO; part: xc7vx485tffg1157-1
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bB (cr)
+// [Engine Memory]: 1,427 MB (+61357kb) [00:01:05]
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, cr)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton("OptionPane.button", "Cancel"); // JButton (A, G)
+// PAPropertyPanels.initPanels (fifo_reg.sv) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (fifo_reg.sv)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (fifo_reg.sv)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cr)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (fifo_reg.sv)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (fifo_reg.sv)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (fifo_reg.sv)]", 1, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cr)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 3); // i (N, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg.sv]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg.sv]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, "Run Post-Synthesis Functional Simulation"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// e (cr):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: Command: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in '/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7vx485tffg1157-1 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,500 MB. GUI used memory: 62 MB. Current time: 12/18/23, 8:52:25 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 1,655 MB. GUI used memory: 61 MB. Current time: 12/18/23, 8:52:40 PM UTC
+// TclEventType: DESIGN_CLOSE
+// [Engine Memory]: 1,662 MB (+172362kb) [00:02:50]
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Device 21-403] Loading part xc7vx485tffg1157-1 INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 7154.074 ; gain = 0.000 ; free physical = 5829 ; free virtual = 84687 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2019.2 
+// Tcl Message: open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:41 . Memory (MB): peak = 7183.465 ; gain = 178.387 ; free physical = 5789 ; free virtual = 84647 
+// Tcl Message: INFO: [Common 17-344] 'open_run' was cancelled INFO: [Vivado 12-5357] 'setup' step aborted 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:00:41 . Memory (MB): peak = 7183.465 ; gain = 178.387 ; free physical = 5789 ; free virtual = 84647 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// 'd' command handler elapsed time: 41 seconds
+// Elapsed time: 40 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,721 MB. GUI used memory: 61 MB. Current time: 12/18/23, 8:53:00 PM UTC
+// Elapsed time: 78 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton("OptionPane.button", "Cancel"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, "Run Post-Synthesis Functional Simulation"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// e (cr):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: Command: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in '/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7vx485tffg1157-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// HMemoryUtils.trashcanNow. Engine heap size: 1,819 MB. GUI used memory: 61 MB. Current time: 12/18/23, 8:54:25 PM UTC
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,819 MB. GUI used memory: 61 MB. Current time: 12/18/23, 8:54:25 PM UTC
+// [Engine Memory]: 1,820 MB (+78156kb) [00:04:19]
+// [Engine Memory]: 1,957 MB (+47779kb) [00:04:19]
+// [GUI Memory]: 118 MB (+1471kb) [00:04:19]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 133 MB (+9728kb) [00:04:22]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  2654 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 7217.832 ; gain = 0.000 ; free physical = 5782 ; free virtual = 84642 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/home/azafeer/Desktop/test/FIFO/new_const.xdc] 
+// Tcl Message: INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/azafeer/Desktop/test/FIFO/new_const.xdc:100] 
+// Tcl Message: INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/azafeer/Desktop/test/FIFO/new_const.xdc:100] 
+// Tcl Message: Finished Parsing XDC File [/home/azafeer/Desktop/test/FIFO/new_const.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7281.855 ; gain = 0.000 ; free physical = 5682 ; free virtual = 84543 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// [Engine Memory]: 2,055 MB (+165kb) [00:04:23]
+// Tcl Message: open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:09 . Memory (MB): peak = 7527.609 ; gain = 309.777 ; free physical = 5503 ; free virtual = 84364 
+// Tcl Message: INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'... INFO: [SIM-utils-25] write_verilog -mode funcsim -nolib -force -file "/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim/tb_fifo_reg_func_synth.v" INFO: [SIM-utils-36] Netlist generated:/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim/tb_fifo_reg_func_synth.v INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File '/cad/xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'tb_fifo_reg' in fileset 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim' 
+// Tcl Message: xvlog --incr --relax -prj tb_fifo_reg_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim/tb_fifo_reg_func_synth.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module ff_d_32 INFO: [VRFC 10-311] analyzing module ff_d_32_0 INFO: [VRFC 10-311] analyzing module ff_d_32_1 INFO: [VRFC 10-311] analyzing module ff_d_32_2 INFO: [VRFC 10-311] analyzing module fifo_reg INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim' 
+// Tcl Message: xelab -wto 80c5e0d56b6648619fca19c24d29480f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_fifo_reg_func_synth xil_defaultlib.tb_fifo_reg xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot tb_fifo_reg_func_synth 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_fifo_reg_func_synth -key {Post-Synthesis:sim_1:Functional:tb_fifo_reg} -tclbatch {tb_fifo_reg.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// [GUI Memory]: 166 MB (+27130kb) [00:04:33]
+// WARNING: HEventQueue.dispatchEvent() is taking  1547 ms.
+// Tcl Message: INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst 
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,126 MB. GUI used memory: 104 MB. Current time: 12/18/23, 8:54:41 PM UTC
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 20 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source tb_fifo_reg.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,149 MB. GUI used memory: 131 MB. Current time: 12/18/23, 8:54:41 PM UTC
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// [Engine Memory]: 2,164 MB (+6565kb) [00:04:35]
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: $stop called at time : 58 ps : File "/home/azafeer/Desktop/test/FIFO/FIFO.srcs/sim_1/new/tb_fifo_reg.sv" Line 121 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_fifo_reg_func_synth' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:01:14 ; elapsed = 00:00:22 . Memory (MB): peak = 7973.211 ; gain = 755.379 ; free physical = 5368 ; free virtual = 84230 
+// 'd' command handler elapsed time: 22 seconds
+// a (cr): Critical Messages: addNotify
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// RouteApi::initDelayMediator elapsed time: 19.3s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [Engine Memory]: 2,459 MB (+195819kb) [00:06:23]
+// Elapsed time: 226 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,484 MB. GUI used memory: 107 MB. Current time: 12/18/23, 8:58:35 PM UTC
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // i (h, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, "Run Post-Synthesis Functional Simulation"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// 'd' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "No"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_SHOW_NETLIST_DESIGN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_TASK
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, "Run Post-Synthesis Functional Simulation"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// HMemoryUtils.trashcanNow. Engine heap size: 2,487 MB. GUI used memory: 109 MB. Current time: 12/18/23, 8:58:58 PM UTC
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 7973.211 ; gain = 0.000 ; free physical = 5120 ; free virtual = 83962 
+// e (cr):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Close"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: Command: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: xvlog --incr --relax -prj tb_fifo_reg_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim/tb_fifo_reg_func_synth.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module ff_d_32 INFO: [VRFC 10-311] analyzing module ff_d_32_0 INFO: [VRFC 10-311] analyzing module ff_d_32_1 INFO: [VRFC 10-311] analyzing module ff_d_32_2 INFO: [VRFC 10-311] analyzing module fifo_reg INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim' 
+// Tcl Message: xelab -wto 80c5e0d56b6648619fca19c24d29480f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_fifo_reg_func_synth xil_defaultlib.tb_fifo_reg xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot tb_fifo_reg_func_synth 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/azafeer/Desktop/test/FIFO/FIFO.sim/sim_1/synth/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_fifo_reg_func_synth -key {Post-Synthesis:sim_1:Functional:tb_fifo_reg} -tclbatch {tb_fifo_reg.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1344 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst 
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,508 MB. GUI used memory: 113 MB. Current time: 12/18/23, 8:59:13 PM UTC
+// Tcl Message: source tb_fifo_reg.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: $stop called at time : 58 ps : File "/home/azafeer/Desktop/test/FIFO/FIFO.srcs/sim_1/new/tb_fifo_reg.sv" Line 121 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_fifo_reg_func_synth' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 8322.344 ; gain = 349.133 ; free physical = 5106 ; free virtual = 83922 
+// 'd' command handler elapsed time: 19 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 81 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // i (h, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 189, 439); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 189, 439); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,507 MB. GUI used memory: 112 MB. Current time: 12/18/23, 9:00:38 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "dut ; fifo_reg ; Verilog Module", 1, "dut", 0, true); // c (c, cr) - Node
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; X ; Logic", 2, "clk", 0, false); // c (c, cr)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; X ; Logic", 2, "clk", 0, false, false, false, false, true, false); // c (c, cr) - Popup Trigger
+selectMenuItem((HResource) null, "Log to Wave Database"); // ai (ao, Popup.HeavyWeightWindow)
+// Tcl Command: 'current_wave_config {Untitled 2}'
+// Tcl Message: current_wave_config {Untitled 2} 
+// Tcl Message: Untitled 2 
+// Tcl Message: log_wave {/tb_fifo_reg/dut/clk}  
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; X ; Logic", 2, "clk", 0, false, false, false, false, true, false); // c (c, cr) - Popup Trigger
+selectMenuItem((HResource) null, "Add to Wave Window"); // ai (ao, Popup.HeavyWeightWindow)
+// Tcl Command: 'current_wave_config {Untitled 2}'
+// Tcl Message: current_wave_config {Untitled 2} 
+// Tcl Message: Untitled 2 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: add_wave {{/tb_fifo_reg/dut/clk}}  
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART, "simulation_live_restart"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART
+// bB (cr):  Restart : addNotify
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// Tcl Message: restart 
+// Tcl Message: INFO: [Simtcl 6-17] Simulation restarted 
+dismissDialog("Restart"); // bB (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 2,523 MB. GUI used memory: 128 MB. Current time: 12/18/23, 9:00:56 PM UTC
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run all 
+// Tcl Message: $stop called at time : 58 ps : File "/home/azafeer/Desktop/test/FIFO/FIFO.srcs/sim_1/new/tb_fifo_reg.sv" Line 121 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2*", 2); // i (h, cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 88 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 227, 452); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 120, 450); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 912 seconds
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // aa (cr, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // af (cr, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // af (cr, Popup.HeavyWeightWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ai (cr, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// I (cr): Settings: addNotify
+// 'dy' command handler elapsed time: 3 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  3158 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,535 MB. GUI used memory: 133 MB. Current time: 12/18/23, 9:17:56 PM UTC
+// Elapsed time: 17 seconds
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // L (E, I)
+// [GUI Memory]: 187 MB (+13451kb) [00:28:17]
+// [GUI Memory]: 201 MB (+4856kb) [00:28:18]
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// [GUI Memory]: 213 MB (+1874kb) [00:28:22]
+// A (cr): Create New Run: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// b (cr): Create Run: addNotify
+dismissDialog("Create New Run"); // A (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (b)
+// TclEventType: RUN_ADD
+// Tcl Command: 'set_property INCLUDE_IN_ARCHIVE [ get_property INCLUDE_IN_ARCHIVE [get_runs synth_1]] [get_runs synth_2]'
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// Tcl Message: create_run synth_2 -flow {Vivado Synthesis 2019} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports} 
+// Tcl Message: Run is defaulting to srcset: sources_1 Run is defaulting to constrset: constrs_1 Run is defaulting to part: xc7vx485tffg1157-1 
+// Tcl Message: current_run [get_runs synth_2] 
+// Tcl Message: set_property STEPS.SYNTH_DESIGN.ARGS.GATED_CLOCK_CONVERSION auto [get_runs synth_2] 
+dismissDialog("Create Run"); // b (cr)
+dismissDialog("Settings"); // I (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_SHOW_NETLIST_DESIGN
+// Elapsed time: 111 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults* (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7vx485tffg1157-1 ;  ; Vivado Synthesis Defaults", 2, "Not started", 2, true); // az (O, cr) - Node
+// PAPropertyPanels.initPanels (synth_2) elapsed time: 0.3s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults* (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7vx485tffg1157-1 ;  ; Vivado Synthesis Defaults", 2, "Not started", 2, true); // az (O, cr) - Node
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults* (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7vx485tffg1157-1 ;  ; Vivado Synthesis Defaults", 2); // az (O, cr)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults* (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7vx485tffg1157-1 ;  ; Vivado Synthesis Defaults", 2, "Not started", 2, true, false, false, false, false, true); // az (O, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_2 -jobs 24 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Mon Dec 18 21:20:36 2023] Launched synth_2... Run output will be captured here: /home/azafeer/Desktop/test/FIFO/FIFO.runs/synth_2/runme.log 
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,562 MB. GUI used memory: 147 MB. Current time: 12/18/23, 9:20:45 PM UTC
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 145 MB. Current time: 12/18/23, 9:50:45 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/18/23, 10:20:45 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/18/23, 10:50:45 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/18/23, 11:20:45 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/18/23, 11:50:45 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 12:20:45 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 12:50:45 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 1:20:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 1:50:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 2:20:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 2:50:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 3:20:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 3:50:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 4:20:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 4:50:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 5:20:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 5:50:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 6:20:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 6:50:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 7:20:46 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 7:50:47 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 8:20:47 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 8:50:47 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 9:20:47 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 9:50:47 AM UTC
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1651 ms. Increasing delay to 4953 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 10:20:47 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 10:50:47 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 11:20:47 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 11:50:47 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 12:20:47 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 12:50:47 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 1:20:47 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 1:50:47 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 2:20:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 2:50:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 3:20:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 3:50:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 4:20:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 4:50:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 5:20:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 5:50:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 6:20:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 6:50:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 7:20:48 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,564 MB. GUI used memory: 141 MB. Current time: 12/19/23, 7:50:49 PM UTC
+// Elapsed time: 81786 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (Q, aj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bB (cr):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 120, 450); // n (o, cr)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 120, 450); // n (o, cr)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 120, 450); // n (o, cr)Waveform: addNotify
+// PAPropertyPanels.initPanels (synth_2) elapsed time: 0.3s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,565 MB. GUI used memory: 134 MB. Current time: 12/19/23, 8:03:51 PM UTC
+// Engine heap size: 2,565 MB. GUI used memory: 135 MB. Current time: 12/19/23, 8:03:51 PM UTC
+// WARNING: HEventQueue.dispatchEvent() is taking  2719 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bB)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Common 17-344] 'close_design' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+dismissDialog("Reloading design"); // bB (cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2*", 2); // i (h, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // af (cr, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "/home/azafeer/Desktop/test/shift_reg/shift_reg.xpr"); // ai (cr, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectButton("OptionPane.button", "Cancel"); // JButton (A, G)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // af (cr, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "/home/azafeer/Desktop/test/reg_sim/reg_sim.xpr"); // ai (cr, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// bB (cr):  Close : addNotify
+selectButton("OptionPane.button", "Discard"); // JButton (A, G)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// WARNING: HEventQueue.dispatchEvent() is taking  1453 ms.
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 95 MB. Current time: 12/19/23, 8:04:21 PM UTC
+// Opening Vivado Project: /home/azafeer/Desktop/test/reg_sim/reg_sim.xpr. Version: Vivado v2019.2 
+// bB (cr):  Open Project : addNotify
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Close"); // bB (cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  2096 ms.
+// Tcl Message: open_project /home/azafeer/Desktop/test/reg_sim/reg_sim.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/xilinx/Vivado/2019.2/data/ip'. 
+// Project name: reg_sim; location: /home/azafeer/Desktop/test/reg_sim; part: xczu9eg-ffvb1156-2-e
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 8335.516 ; gain = 0.000 ; free physical = 1436 ; free virtual = 82761 
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bB (cr)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (registers.sv)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (registers.sv)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Elapsed time: 22 seconds
+selectCodeEditor("registers.sv", 48, 318); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+// [Engine Memory]: 2,585 MB (+3313kb) [23:16:04]
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: xvlog --incr --relax -prj tb_fifo_reg_vlog.prj 
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/azafeer/Desktop/test/reg_sim/reg_sim.srcs/sources_1/new/registers.sv" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module ff_d INFO: [VRFC 10-311] analyzing module fifo_reg ERROR: [VRFC 10-2989] 'clr_i' is not declared [/home/azafeer/Desktop/test/reg_sim/reg_sim.srcs/sources_1/new/registers.sv:32] ERROR: [VRFC 10-2865] module 'fifo_reg' ignored due to previous errors [/home/azafeer/Desktop/test/reg_sim/reg_sim.srcs/sources_1/new/registers.sv:16] 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 34 seconds
+// Elapsed time: 34 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// a (cr): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+selectButton(PAResourceEtoH.ExploreAheadView_COLLAPSE_ALL, "Design Runs_collapse_all"); // E (f, cr)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL (aI, cr)
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cr)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-69] 'compile' step finished in '2' seconds. ]", 16, false, false, false, false, true, false); // ah (O, cr) - Popup Trigger
+selectButton(PAResourceItoN.MsgView_COLLAPSE_ALL, "Messages_collapse_all"); // E (f, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 1); // ah (O, cr)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 1); // ah (O, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah (O, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages]", 1); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/behav/xsim/xvlog.log' file for more information.. ]", 18, false); // ah (O, cr)
+selectCodeEditor("registers.sv", 333, 250); // ch (w, cr)
+selectCodeEditor("registers.sv", 324, 286); // ch (w, cr)
+selectCodeEditor("registers.sv", 58, 281); // ch (w, cr)
+selectCodeEditor("registers.sv", 63, 282); // ch (w, cr)
+// Elapsed time: 52 seconds
+selectCodeEditor("registers.sv", 30, 282); // ch (w, cr)
+selectCodeEditor("registers.sv", 213, 277); // ch (w, cr)
+// Elapsed time: 18 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("registers.sv", 160, 283); // ch (w, cr)
+selectCodeEditor("registers.sv", 31, 333); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,597 MB. GUI used memory: 100 MB. Current time: 12/19/23, 8:09:08 PM UTC
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 71 seconds
+selectCodeEditor("registers.sv", 167, 333); // ch (w, cr)
+selectCodeEditor("registers.sv", 281, 331); // ch (w, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: xvlog --incr --relax -prj tb_fifo_reg_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/azafeer/Desktop/test/reg_sim/reg_sim.srcs/sources_1/new/registers.sv" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module ff_d INFO: [VRFC 10-311] analyzing module fifo_reg INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/azafeer/Desktop/test/FIFO/FIFO.srcs/sim_1/new/tb_fifo_reg.sv" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module tb_fifo_reg 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/behav/xsim' 
+// Tcl Message: xelab -wto 05271b77e15d41cd8c532b4cdbcab925 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fifo_reg_behav xil_defaultlib.tb_fifo_reg xil_defaultlib.glbl -log elaborate.log 
+// Tcl Message:  ****** Webtalk v2019.2 (64-bit)   **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019   **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.  source /home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/behav/xsim/xsim.dir/tb_fifo_reg_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Tue Dec 19 20:10:26 2023... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8335.516 ; gain = 0.000 ; free physical = 1462 ; free virtual = 82791 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_fifo_reg_behav -key {Behavioral:sim_1:Functional:tb_fifo_reg} -tclbatch {tb_fifo_reg.tcl} -protoinst "protoinst_files/ground_port.protoinst" -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1019 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ground_port.protoinst 
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 10 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,633 MB. GUI used memory: 105 MB. Current time: 12/19/23, 8:10:30 PM UTC
+// Tcl Message: source tb_fifo_reg.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: $stop called at time : 58 ps : File "/home/azafeer/Desktop/test/FIFO/FIFO.srcs/sim_1/new/tb_fifo_reg.sv" Line 121 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_fifo_reg_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 8432.977 ; gain = 97.461 ; free physical = 1453 ; free virtual = 82784 
+// 'd' command handler elapsed time: 12 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 627 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 1); // i (h, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 311, 387); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,625 MB. GUI used memory: 107 MB. Current time: 12/19/23, 8:21:03 PM UTC
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 301, 386); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 227, 357); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 291, 368); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,625 MB. GUI used memory: 105 MB. Current time: 12/19/23, 8:21:07 PM UTC
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_fifo_reg.sv", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "registers.sv", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 1); // i (h, cr)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "dut ; fifo_reg ; Verilog Module", 1, "dut", 0, true); // c (c, cr) - Node
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; 0 ; Logic", 11, "clk", 0, false); // c (c, cr)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; 0 ; Logic", 11, "clk", 0, false, false, false, false, true, false); // c (c, cr) - Popup Trigger
+selectMenu("Default Radix"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem((HResource) null, "Log to Wave Database"); // ai (ao, Popup.HeavyWeightWindow)
+// Tcl Command: 'current_wave_config {Untitled 3}'
+// Tcl Message: current_wave_config {Untitled 3} 
+// Tcl Message: Untitled 3 
+// Tcl Message: log_wave {/tb_fifo_reg/dut/clk}  
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk_en ; 0 ; Logic", 10, "clk_en", 0, false, false, false, false, true, false); // c (c, cr) - Popup Trigger
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; 0 ; Logic", 11, "clk", 0, false); // c (c, cr)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; 0 ; Logic", 11, "clk", 0, false, false, false, false, true, false); // c (c, cr) - Popup Trigger
+selectMenuItem((HResource) null, "Add to Wave Window"); // ai (ao, Popup.HeavyWeightWindow)
+// Tcl Command: 'current_wave_config {Untitled 3}'
+// Tcl Message: current_wave_config {Untitled 3} 
+// Tcl Message: Untitled 3 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: add_wave {{/tb_fifo_reg/dut/clk}}  
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART, "simulation_live_restart"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART
+// bB (cr):  Restart : addNotify
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: restart 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// Tcl Message: INFO: [Simtcl 6-17] Simulation restarted 
+dismissDialog("Restart"); // bB (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run all 
+// Tcl Message: $stop called at time : 58 ps : File "/home/azafeer/Desktop/test/FIFO/FIFO.srcs/sim_1/new/tb_fifo_reg.sv" Line 121 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3*", 1); // i (h, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 141, 435); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,643 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:41 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,643 MB. GUI used memory: 115 MB. Current time: 12/19/23, 8:21:43 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,643 MB. GUI used memory: 112 MB. Current time: 12/19/23, 8:21:43 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,643 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:44 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,643 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:44 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,627 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:45 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,627 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:45 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,627 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:47 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,627 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:48 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,627 MB. GUI used memory: 108 MB. Current time: 12/19/23, 8:21:48 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,627 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:49 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,627 MB. GUI used memory: 107 MB. Current time: 12/19/23, 8:21:50 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,627 MB. GUI used memory: 106 MB. Current time: 12/19/23, 8:21:51 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 192 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cr)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Tue Dec 19 20:24:56 2023] Launched synth_1... Run output will be captured here: /home/azafeer/Desktop/test/reg_sim/reg_sim.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 44 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cr)
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ff_1 ; ff_d ; Verilog Module", 3, "ff_1", 0, false); // c (c, cr)
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ff_2 ; ff_d ; Verilog Module", 4, "ff_2", 0, false); // c (c, cr)
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "ff_3 ; ff_d ; Verilog Module", 5, "ff_3", 0, false); // c (c, cr)
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u (O, cr) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u (O, cr) - Node
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Completed: addNotify
+// Elapsed time: 201 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bB (cr):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xczu9eg-ffvb1156-2-e 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,725 MB. GUI used memory: 105 MB. Current time: 12/19/23, 8:29:39 PM UTC
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,355 MB. GUI used memory: 105 MB. Current time: 12/19/23, 8:29:59 PM UTC
+// [Engine Memory]: 3,355 MB (+672000kb) [23:39:53]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /cad/xilinx/Vivado/2019.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu9eg/xczu9eg.xgd; ZipEntry: xczu9eg_detail.xgd elapsed time: 1.2s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.6s
+// [GUI Memory]: 223 MB (+43kb) [23:39:55]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1718 ms.
+// Tcl Message: INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e 
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8794.934 ; gain = 0.000 ; free physical = 2230 ; free virtual = 82061 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 37 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8794.934 ; gain = 0.000 ; free physical = 2134 ; free virtual = 81971 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 37 instances were transformed.   IBUF => IBUF (IBUFCTRL, INBUF): 37 instances  
+// Device view-level: 0.0
+// ExpRunCommands.openSynthResults elapsed time: 42.1s
+// Tcl Message: open_run: Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 8810.941 ; gain = 366.957 ; free physical = 1966 ; free virtual = 81801 
+// 'dQ' command handler elapsed time: 42 seconds
+// Device view-level: 0.1
+// Device view-level: 0.0
+// Elapsed time: 43 seconds
+dismissDialog("Open Synthesized Design"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,451 MB. GUI used memory: 172 MB. Current time: 12/19/23, 8:30:24 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 3,681 MB. GUI used memory: 172 MB. Current time: 12/19/23, 8:30:44 PM UTC
+// [Engine Memory]: 3,739 MB (+226852kb) [23:41:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,739 MB. GUI used memory: 172 MB. Current time: 12/19/23, 8:31:09 PM UTC
+// Elapsed time: 68 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 141, 435); // n (o, cr)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 141, 435); // n (o, cr)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 141, 435); // n (o, cr)Waveform: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1521 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, "Run Post-Synthesis Functional Simulation"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// e (cr):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: Command: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in '/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'... INFO: [SIM-utils-25] write_verilog -mode funcsim -nolib -force -file "/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim/tb_fifo_reg_func_synth.v" 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [SIM-utils-36] Netlist generated:/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim/tb_fifo_reg_func_synth.v INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File '/cad/xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'tb_fifo_reg' in fileset 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim' 
+// Tcl Message: xvlog --incr --relax -prj tb_fifo_reg_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim/tb_fifo_reg_func_synth.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module ff_d INFO: [VRFC 10-311] analyzing module ff_d_0 INFO: [VRFC 10-311] analyzing module ff_d_1 INFO: [VRFC 10-311] analyzing module ff_d_2 INFO: [VRFC 10-311] analyzing module fifo_reg INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim' 
+// Tcl Message: xelab -wto 05271b77e15d41cd8c532b4cdbcab925 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_fifo_reg_func_synth xil_defaultlib.tb_fifo_reg xil_defaultlib.glbl -log elaborate.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,913 MB. GUI used memory: 173 MB. Current time: 12/19/23, 8:31:24 PM UTC
+// Tcl Message: Built simulation snapshot tb_fifo_reg_func_synth 
+// Tcl Message:  ****** Webtalk v2019.2 (64-bit)   **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019   **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.  source /home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim/xsim.dir/tb_fifo_reg_func_synth/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Tue Dec 19 20:31:26 2023... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 9723.531 ; gain = 441.703 ; free physical = 1545 ; free virtual = 81017 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/azafeer/Desktop/test/reg_sim/reg_sim.sim/sim_1/synth/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_fifo_reg_func_synth -key {Post-Synthesis:sim_1:Functional:tb_fifo_reg} -tclbatch {tb_fifo_reg.tcl} -protoinst "protoinst_files/ground_port.protoinst" -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// [Engine Memory]: 4,368 MB (+463971kb) [23:41:22]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ground_port.protoinst 
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 4,401 MB. GUI used memory: 180 MB. Current time: 12/19/23, 8:31:29 PM UTC
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source tb_fifo_reg.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: $stop called at time : 58 ps : File "/home/azafeer/Desktop/test/FIFO/FIFO.srcs/sim_1/new/tb_fifo_reg.sv" Line 121 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_fifo_reg_func_synth' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:27 ; elapsed = 00:00:13 . Memory (MB): peak = 10149.547 ; gain = 906.719 ; free physical = 1345 ; free virtual = 80774 
+// 'd' command handler elapsed time: 13 seconds
+// Elapsed time: 13 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// RouteApi::initDelayMediator elapsed time: 110s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [Engine Memory]: 4,918 MB (+347461kb) [23:42:50]
+// Elapsed time: 231 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 4", 2); // i (h, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 100, 373); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "dut ; fifo_reg ; Verilog Module", 1, "dut", 0, true); // c (c, cr) - Node
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "dut ; fifo_reg ; Verilog Module", 1, "dut", 0, true); // c (c, cr) - Node
+// TclEventType: SIMULATION_REQUEST_SELECT_SCOPES
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; 0 ; Logic", 2, "clk", 0, false, false, false, false, true, false); // c (c, cr) - Popup Trigger
+selectMenu("Default Radix"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem((HResource) null, "Add to Wave Window"); // ai (ao, Popup.HeavyWeightWindow)
+// Tcl Command: 'current_wave_config {Untitled 4}'
+// Tcl Message: current_wave_config {Untitled 4} 
+// Tcl Message: Untitled 4 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: add_wave {{/tb_fifo_reg/dut/clk}}  
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART, "simulation_live_restart"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART
+// bB (cr):  Restart : addNotify
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 4,926 MB. GUI used memory: 211 MB. Current time: 12/19/23, 8:35:33 PM UTC
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// Tcl Message: restart 
+// Tcl Message: INFO: [Simtcl 6-17] Simulation restarted 
+dismissDialog("Restart"); // bB (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run all 
+// Tcl Message: $stop called at time : 58 ps : File "/home/azafeer/Desktop/test/FIFO/FIFO.srcs/sim_1/new/tb_fifo_reg.sv" Line 121 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 4*", 2); // i (h, cr)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 199, 410); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 162 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 129, 452); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,918 MB. GUI used memory: 205 MB. Current time: 12/19/23, 8:38:21 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 238 MB (+3913kb) [23:52:20]
+// Elapsed time: 524 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 32, 433); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 15, 433); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 91, 448); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,918 MB. GUI used memory: 183 MB. Current time: 12/19/23, 8:47:07 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 188 MB. Current time: 12/19/23, 8:47:09 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 189 MB. Current time: 12/19/23, 8:47:09 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 247, 537); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 109, 509); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 178 MB. Current time: 12/19/23, 8:47:12 PM UTC
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // E (f, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 183 MB. Current time: 12/19/23, 8:47:14 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 185 MB. Current time: 12/19/23, 8:47:15 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 178 MB. Current time: 12/19/23, 8:47:16 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // E (f, cr)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 195 MB. Current time: 12/19/23, 8:47:20 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,919 MB. GUI used memory: 186 MB. Current time: 12/19/23, 8:47:20 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 139 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Constraints Wizard]", 16, false); // u (O, cr)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WIZARD
+// WARNING: HEventQueue.dispatchEvent() is taking  1830 ms.
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+selectButton("OptionPane.button", "Cancel"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (clk_i_IBUF) elapsed time: 6.4s
+// WARNING: HEventQueue.dispatchEvent() is taking  6428 ms.
+// PAPropertyPanels.initPanels (clk_BUFG_inst_i_1 (LUT3)) elapsed time: 0.2s
+// Elapsed time: 690 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (registers.sv)]", 1, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_fifo_reg.sv", 940, 351); // ch (w, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u (O, cr) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u (O, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_reg (registers.sv)]", 1, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectButton(RDIResource.HTree_COLLAPSE_ALL, "Netlist_collapse_all"); // l (f, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[fifo_reg]", 0, true, false, false, false, true, false); // bD (O, cr) - Popup Trigger - Node
+selectMenu(PAResourceItoN.NetlistTreeView_FLOORPLANNING, "Floorplanning"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SCHEMATIC, "Schematic"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 22 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[fifo_reg, Nets (376)]", 1); // bD (O, cr)
+// Elapsed time: 35 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[fifo_reg, Leaf Cells (112)]", 222); // bD (O, cr)
+// Elapsed time: 420 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "registers.sv", 2); // i (h, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor("registers.sv", 217, 278); // ch (w, cr)
+selectCodeEditor("registers.sv", 223, 307); // ch (w, cr)
+selectCodeEditor("registers.sv", 209, 276); // ch (w, cr)
+selectCodeEditor("registers.sv", 113, 281); // ch (w, cr)
+selectCodeEditor("registers.sv", 136, 278); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 252 MB (+1363kb) [24:22:13]
+// Elapsed time: 236 seconds
+selectCodeEditor("registers.sv", 27, 264); // ch (w, cr)
+selectCodeEditor("registers.sv", 27, 278); // ch (w, cr)
+selectCodeEditor("registers.sv", 25, 294); // ch (w, cr)
+selectCodeEditor("registers.sv", 21, 312); // ch (w, cr)
+selectCodeEditor("registers.sv", 84, 314); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 103 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// Tcl Message: [Tue Dec 19 21:15:52 2023] Launched synth_1... Run output will be captured here: /home/azafeer/Desktop/test/reg_sim/reg_sim.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 86 seconds
+selectCodeEditor("registers.sv", 82, 293); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,947 MB. GUI used memory: 186 MB. Current time: 12/19/23, 9:17:24 PM UTC
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 431ms to process. Increasing delay to 3000 ms.
+// aj (cr): Synthesis Completed: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bB (cr):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 100, 493); // n (o, cr)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 100, 493); // n (o, cr)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 93, 519); // n (o, cr)Waveform: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 4,947 MB. GUI used memory: 179 MB. Current time: 12/19/23, 9:17:59 PM UTC
+// Engine heap size: 4,947 MB. GUI used memory: 179 MB. Current time: 12/19/23, 9:18:00 PM UTC
+// WARNING: HEventQueue.dispatchEvent() is taking  2970 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xczu9eg-ffvb1156-2-e 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,947 MB. GUI used memory: 118 MB. Current time: 12/19/23, 9:18:02 PM UTC
+// Xgd.load filename: /cad/xilinx/Vivado/2019.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu9eg/xczu9eg.xgd; ZipEntry: xczu9eg_detail.xgd elapsed time: 0.9s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.6s
+// Device: addNotify
+// DeviceView Instantiated
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 3 (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+// WARNING: HEventQueue.dispatchEvent() is taking  2343 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 10670.039 ; gain = 0.000 ; free physical = 2570 ; free virtual = 80783 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 37 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10670.039 ; gain = 0.000 ; free physical = 2511 ; free virtual = 80724 
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 37 instances were transformed.   IBUF => IBUF (IBUFCTRL, INBUF): 37 instances  
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 3 (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 3 (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 3 (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 3 (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 3 (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 3 (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.ArrayIndexOutOfBoundsException: 3 (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug) 
+// Tcl Message: open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:05 . Memory (MB): peak = 10670.039 ; gain = 0.000 ; free physical = 2359 ; free virtual = 80573 
+// Tcl Message: ERROR: [Common 17-39] 'open_run' failed due to earlier errors. 
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug) 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'open_run' failed due to earlier errors.  
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:06 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+// S (cr): Critical Messages: addNotify
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:07 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:07 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:07 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+selectButton(RDIResource.HExceptionDialog_EXIT, "Exit"); // a (ah, ad)
+// A (cr): Exit Vivado: addNotify
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:08 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:09 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:09 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:09 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:09 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+dismissDialog("Exit Vivado"); // A (cr)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:09 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:09 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:10 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+// RouteApi::initDelayMediator elapsed time: 4.1s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:10 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+dismissDialog("Critical Messages"); // S (cr)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:10 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:10 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:10 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:12 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:14 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:15 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:16 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:18 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:21 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:24 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:27 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:30 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:33 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:36 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:39 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:42 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:45 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:48 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:51 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2019.2 (64-bit)
+# SW Build: 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Current time: Tue Dec 19 21:18:54 UTC 2023
+# Process ID (PID): 3995600
+# OS: Ubuntu
+# User: azafeer
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException (See /home/azafeer/Desktop/test/pulp-master/fpga/pulp/vivado_pid3995600.debug)
+*/
